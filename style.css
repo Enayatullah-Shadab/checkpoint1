@@ -1,7 +1,13 @@
-body{
-    margin:0;
-    padding:0 ;
-}
 hr{
-    background-color: blue;
+    height: 100px;
+    width: 2px;
+    background-color:black;
+}
+box1{
+    border-color: rgb(221, 4, 4);
+}
+box2{
+    height:100%;
+    width: 50%;
+    object-fit: cover;
 }
