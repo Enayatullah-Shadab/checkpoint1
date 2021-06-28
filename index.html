@@ -8,13 +8,18 @@
     <title>Checkpoint-1</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <section class="containr-fluid sticky-top">
+
+    <section class="containr-fluid sticky w-100 img-fluid">
         <header class="header">
             <div class="row bg-primary px-2">
                 <div class="col-2"><img src="./image/logo.jpg" width="60" alt=""></div>
@@ -43,17 +48,17 @@
 
             </div>
         </div>
-        <div class="row bg-secondary mt-2 mb-2">
-            <div class="col-lg-6 px-5 py-5">
+        <div class="row bg-secondary mt-2 mb-2 ">
+            <div class="col-md-6 px-5 py-5 order-2 order-sm-1">
                 <h4>Lorem ipsum dolor sit amet consectetur but
                     adipisicing elit. Temporibus rerum, fugit
                     aut fugaporro consectetur i dont know.</h4>
             </div>
-            <div class="col-lg-6 mt-5 px-2">
+            <div class="col-md-6 px-2 mt-5 order-1 order-sm-2 icn">
                 <div class="card">
-                    <div class="card-body icn">
-                        <div class="col">
-                            <div class="row bg-light px-5 ">
+                    <div class="card-body">
+                        <div class="col <i class=" fas fa-digital-tachograph"></i>
+                            <div class="row bg-light px-5">
                                 <div class="col-2"><i class='fas fa-video' style='font-size:24px'></i></div>
                                 <div class="col-10">
                                     <h4>Our camera is recorindg</h4>
@@ -81,9 +86,9 @@
                 </div>
             </div>
         </div>
-        <div class="row bg-primary mb-2 mt-2">
-            <div class="col-lg-5 px-5 "> <img src="./image/background.jpg" alt=""></div>
-            <div class="col-lg-7 px-5 py-5">
+        <div class="row bg-primary">
+            <div class="col-lg-6"> <img src="./image/background.jpg" class="img-fluid" alt=""></div>
+            <div class="col-lg-6">
                 <p>
                 <h4> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque,
                     iusto necessitatibus? Fugit iste reprehenderit neque distinctio accusamus
@@ -92,8 +97,8 @@
             </div>
         </div>
         <div class="row mb-4 py-3 px-2 ">
-            <div class="col-lg-4 order-lg-1 order-sm-2">
-                <div class="card ">
+            <div class="col-lg-4 ">
+                <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Everything About Toyota Cars</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -102,8 +107,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 order-lg-2 order-sm-1">
-                <div class="card">
+            <div class="col-lg-4 order-2 order-sm-1 suv">
+                <div class="card suvcard">
                     <div class="card-body">
                         <h5 class="card-title">Everything About Toyota SUV</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -112,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 order-1 order-sm-2">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Everything About Toyota Trucks</h5>
@@ -125,7 +130,7 @@
         </div>
     </main>
     <footer>
-        <div class="row bg-primary text-light">
+        <div class="row bg-primary text-light foot">
             <div class="col-12 px-5 py-2">
                 <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
             </div>
