@@ -54,11 +54,16 @@ body, html {
     z-index: 1;
   }
   .suv{
+      /* box-shadow: 15px 15px 20px 20px rgba(12, 16, 19, 0.15); */
     box-shadow: all rgb(25, 25, 168);
-    border-radius: 4px;
-    transition: 0.5s ease;
+    border-radius: 6px;
+    transition: all 0.8s ease;
+    bottom: 30px;
   }
-  .suvcard{
-    border-radius: 5px;
-    
-  }
+ .spm{
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ .irow{
+   height: 200px;
+ }
