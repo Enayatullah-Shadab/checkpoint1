@@ -40,11 +40,11 @@ body, html {
     padding: 2px 3px;
     border: none;
   }
-  .icn{
-    height: 400px;
-    padding-right: 10px;
+  /* .icn{
+    height: 300px;
+    padding-right: 5px;
     padding-left: 0;
-  } 
+  }  */
   .foot{
     font-family: 'Big Shoulders Display', cursive;
   }
@@ -54,15 +54,15 @@ body, html {
     z-index: 1;
   }
   .suv{
-      /* box-shadow: 15px 15px 20px 20px rgba(12, 16, 19, 0.15); */
+    box-shadow: 15px 15px 20px 20px rgba(12, 16, 19, 0.15);
     box-shadow: all rgb(25, 25, 168);
     border-radius: 6px;
     transition: all 0.8s ease;
     bottom: 30px;
   }
  .spm{
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
  }
  .irow{
    height: 200px;
